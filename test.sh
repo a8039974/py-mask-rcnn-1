@@ -1,0 +1,1 @@
+python tools/test_net.py --gpu 0 --def models/coco/ResNet-50/mask_rcnn_end2end/maskrcnn_resnet50_C4_test.prototxt --net output/faster_rcnn_end2end/coco_2014_train/coco_minival_mask_rcnn_iter_150000.caffemodel --imdb coco_2014_minival --cfg experiments/cfgs/mask_rcnn_end2end.yml

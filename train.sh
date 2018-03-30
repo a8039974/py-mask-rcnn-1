@@ -1,0 +1,1 @@
+python tools/train_net.py --gpu 0 --solver models/coco/ResNet-50/mask_rcnn_end2end/solver.prototxt --weights data/imagenets_models/ResNet-50-model.caffemodel --imdb coco_2014_train --iters 490000 --cfg experiments/cfgs/mask_rcnn_end2end.yml 

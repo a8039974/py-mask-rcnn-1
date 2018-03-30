@@ -1,0 +1,15 @@
+net: "models/coco/ResNet-50/mask_rcnn_end2end/maskrcnn_resnet50_C4_train.prototxt"
+base_lr: 0.002
+lr_policy: "step"
+gamma: 0.1
+stepsize: 240000
+display: 20
+max_iter: 40000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 0
+snapshot_prefix: "coco_train_mask_rcnn6"
+#snapshot: 500
+#solver_mode: GPU
+#clip_gradients: 100
+#debug_info: true
